@@ -26,7 +26,7 @@ namespace Sudoku
                     celdas[i, j].Size = new Size(45, 45);
                     celdas[i, j].ForeColor = SystemColors.ControlDarkDark;
                     celdas[i, j].Location = new Point(i * 45, j * 45);
-                    celdas[i, j].BackColor = ((i / 3) + (j / 3)) % 2 == 0 ? SystemColors.Control : Color.LightGray;
+                    celdas[i, j].BackColor = ((i / 3) + (j / 3)) % 2 == 0 ? SystemColors.Control : Color.DarkGray;
                     celdas[i, j].FlatStyle = FlatStyle.Flat;
                     celdas[i, j].FlatAppearance.BorderColor = Color.Black;
                     celdas[i, j].X = i;
